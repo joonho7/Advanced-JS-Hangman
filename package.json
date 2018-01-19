@@ -1,0 +1,22 @@
+{
+  "name": "advanced-js-hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joonho7/Advanced-JS-Hangman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joonho7/Advanced-JS-Hangman/issues"
+  },
+  "homepage": "https://github.com/joonho7/Advanced-JS-Hangman#readme",
+  "dependencies": {
+    "inquirer": "^5.0.0"
+  }
+}
