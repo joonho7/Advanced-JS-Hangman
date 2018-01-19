@@ -1,10 +1,17 @@
 //checks if users guess is a letter
-function isThisLetter(x){
-	if(typeof(x) === 'string'){
-		console.log(x)
+var tries = wordGen.length;
+var userGuess = [];
+
+function isThisLetter(letter){
+	if(typeof(letter === 'string'){
+		userGuess.push(letter)
 	}else{
 		console.log("_")
+		tries --
+	}
+	if(tries === 0){
+		console.log('Try again!')
 	}
 }
 
-export.isThisLetter = isThisLetter;
+module.exports = isThisLetter;
